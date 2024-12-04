@@ -1,3 +1,5 @@
 import streamlit as st
 
-st.write('Hello world')
+from PIL import Image
+st.image('shrdc_logo.png', width = 300)
+
